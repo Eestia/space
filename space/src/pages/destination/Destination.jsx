@@ -10,7 +10,7 @@ export default function Destination() {
 
   return (
     <div id='bg'>
-    <div id='naviga'>
+    <div id='navi'>
       <Navbar/>
     </div>
     <div id='txt-desti'>
