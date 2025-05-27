@@ -32,7 +32,6 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 60px;
     height: 90px;
     gap: 30px;
 }

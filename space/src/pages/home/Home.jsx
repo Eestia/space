@@ -1,9 +1,14 @@
 import { Link } from 'react-router-dom';
 import './Home.css';
+import Navbar from '../../components/Navbar/Navbar';
 
 export default function Home() {
   return (
-    <div className="home">
+    <div className='home'>
+    <div id='navi'>
+      <Navbar/>
+    </div>
+    <div className="centre">
         <div id='div1'>
           <h3>SO,YOU WANT TO TRAVEL TO</h3>
           <h1>SPACE</h1>
@@ -18,5 +23,6 @@ export default function Home() {
           </Link>
         </div>
     </div>
+  </div>
   );
 }
