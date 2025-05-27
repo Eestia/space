@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bellefair&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Coiny&family=Forum&family=Jost:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lexend+Deca:wght@300&family=Lexend:wght@518&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poetsen+One&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Share+Tech&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Coiny&family=Forum&family=Jost:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lexend+Deca:wght@300&family=Lexend:wght@518&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poetsen+One&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Share+Tech&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Coiny&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Forum&family=Jost:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lexend+Deca:wght@300&family=Lexend:wght@518&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@215&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poetsen+One&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Share+Tech&family=Tenor+Sans&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+body{
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+    background-image: url(../../assets/home/background-home-desktop.jpg);
+    background-size: cover;
+}
+.home{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#div2{
+    background-color: white;
+    height: 250px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    border-radius: 50%;
+    transition: 0.2s ease;
+}
+#div2:hover{
+    background-color: rgb(205, 205, 205);
+}
+#div2 h3{
+    font-size: 25px;
+    font-family: "Tenor Sans", sans-serif;
+    font-weight: lighter;
+    color: rgb(11, 13, 23);
+    transition: 0.2s ease;
+}
+#div2 a {
+  text-decoration: none;
+  color: inherit;
+}
+#div1 {
+    display: flex;
+    flex-direction: column;        
+    color: white;
+    
+}
+#div1 h3{
+    font-family: "Share Tech", sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+}
+#div1 h1{
+    font-family: "Forum", serif;
+    letter-spacing: 13px;
+    font-size: 150px;
+    margin: 1px;
+}
+#div1 p{
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
