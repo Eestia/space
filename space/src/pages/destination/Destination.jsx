@@ -42,7 +42,7 @@ export default function Destination() {
         <div className="infos">
           <div>
             <h4>EST. TRAVEL TIME</h4>
-            <p>{planet.travel}</p>
+            <p id='travel'>{planet.travel}</p>
           </div>
         </div>
       </div>

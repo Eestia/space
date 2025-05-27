@@ -17,6 +17,7 @@
 }
 .destination {
   display: flex;
+  gap: 100px;
   justify-content: space-arround;
   padding: 40px;
   color: white;
@@ -86,7 +87,13 @@
     display: flex;
     justify-content: end;
 }
+#travel{
+    margin-top: 0px;
+    font-size: 20px;
+    font-family: "Forum", serif;
+}
 .infos h4{
+    margin-bottom: 10px;
     font-family: "Share Tech", sans-serif;
     font-weight: lighter;
     color: rgb(209, 215, 248);
