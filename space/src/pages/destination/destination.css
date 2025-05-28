@@ -95,3 +95,53 @@
     font-weight: lighter;
     color: rgb(209, 215, 248);
 }
+@media (max-width: 769px){
+    .destination img{
+    width: 210px;
+    margin-left: 0px;
+    }
+    .destination {
+    display: flex;
+    gap: 20px;
+    justify-content: space-arround;
+    padding: 40px;
+    color: white;
+    }  
+    #txt-desti h2{
+        margin: 0px;
+    }
+    #txt-desti{
+    margin-left: 110px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 15px;
+    }
+    .destination h1{
+    font-size: 90px;
+    margin: 0px;
+    padding: 0px;
+    }
+    .tabs{
+        margin: 0px;
+    }
+    .tabs button {
+    margin: 0px;
+    font-size: 1rem;
+    padding-bottom: 0px;
+    }
+    .destination p{
+    margin: 0px;
+    padding: 0px;
+    }
+    .infos h4{
+    margin-bottom: 0px;
+    }
+    .destination{
+        padding-bottom: 0px;
+    }
+    #bg{
+    height: 100vh;
+    background-size: cover;
+    background-image: url(../../assets/destination/background-destination-desktop.jpg);
+    }
+}

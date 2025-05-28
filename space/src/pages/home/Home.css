@@ -47,7 +47,6 @@
     display: flex;
     flex-direction: column;        
     color: white;
-    
 }
 #div1 h3{
     font-family: "Share Tech", sans-serif;
@@ -67,20 +66,24 @@
 }
 @media (max-width: 769px){
     #div1 h1{
-    font-size: 110px;
+    font-size: 80px;
     margin-top: 0px;
+    }
+    .centre{
+    padding-top: 90px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
     }
     #div1 h3{
     font-size: 20px;
     margin-bottom: 0px;
     }
     #div2{
-    background-color: white;
-    align-items: center;
-    display: flex;
-    justify-content: center;
     height: 200px;
     width: 200px;
+    margin-right: 0px;
     border-radius: 50%;
     transition: 0.2s ease;
     }
