@@ -148,5 +148,32 @@
     .dots button {
     width: 12px;
     height: 12px;
+    }
 }
+@media (max-width: 426px){
+    #h2-espace{
+        margin-bottom: 50px;
+    }
+    .dots{
+        margin-top: 160px;
+    }
+    #bg-crew{
+    height: 100%;
+    background-size: cover;
+    background-image: url(../../assets/crew/background-crew-mobile.jpg);
+    }
+    .crew-page{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .right-crew{
+        margin-top: 20px;
+        margin-left: 80px;
+    }
+    .left-crew p{
+    margin-bottom: 10px;
+    }
+    .left-crew{
+        margin-left: 50px;
+    }
 }
