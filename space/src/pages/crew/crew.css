@@ -12,7 +12,7 @@
 .crew-page {
   height: 100vh;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 50px;
   color: white;
 }
@@ -20,6 +20,7 @@
 .left-crew {
   max-width: 600px;
   position: relative;
+  margin-left: 150px;
 }
 .dots{
     position: absolute;
@@ -82,13 +83,13 @@
   background-color: white;
 }
 .right-crew{
-    position: relative;
+    margin-top: 80px;
+    margin-right: 100px;
 }
 .right-crew img {
   width: 450px;
   height: 450px;
   bottom: 160px;
-  position: absolute;
   object-fit: contain;
 }
 @media (max-width: 769px){
