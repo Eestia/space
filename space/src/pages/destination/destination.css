@@ -162,16 +162,29 @@
     padding-top: 10px;
     color: white;
     }
+    .destination img{
+    margin-top: 20px;
+    }
     #para h1{
+        margin-top: 10px;
         font-size: 60px
     }
     .tabs button{
         font-size: 15px;
+        margin-top: 20px;
+        margin-left: 20px;
     }
     #txt-desti{
     margin-left: 90px;
-    margin-top: 20px;
+    margin-top: 50px;
     margin-bottom: 0px;
     font-size: 15px;
+    }
+    #travel{
+        margin-bottom: 15px;
+    }
+    #para{
+        margin-left: 20px;
+        width: 360px;
     }
 }

@@ -109,10 +109,10 @@
     margin-bottom: 10px;
     }
     .centre{
-    padding-top: 90px;
+    padding-top: 40px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-}
+    }
 }
