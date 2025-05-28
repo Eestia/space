@@ -1,52 +1,64 @@
-import { useState } from 'react';
-import planets from '../../planetsData'; // ton tableau
+import { useParams, useNavigate } from 'react-router-dom';
+import planets from '../../planetsData';
 import './Destination.css';
 import Navbar from '../../components/Navbar/Navbar';
+import { useState } from 'react';
+
 
 export default function Destination() {
-  const [selected, setSelected] = useState(0); // par défaut Moon
+  const { planetName } = useParams();
+  const navigate = useNavigate();
+
+  const selectedIndex = planets.findIndex(p => p.name.toLowerCase() === planetName?.toLowerCase());
+  const [selected, setSelected] = useState(selectedIndex !== -1 ? selectedIndex : 0);
 
   const planet = planets[selected];
 
+  const handleTabClick = (index) => {
+    setSelected(index);
+    navigate(`/destination/${planets[index].name.toLowerCase()}`);
+  };
+
   return (
     <div id='bg'>
-    <div id='navi'>
-      <Navbar/>
-    </div>
-    <div id='txt-desti'>
-        <h2><span>01</span> PICK YOUR DESTINATION</h2>
-    </div>
-    <div className="destination">
-      <div className="left">
-        <img src={planet.image} alt={planet.name} />
+      <div id='navi'>
+        <Navbar />
       </div>
-
-      <div className="right">
-        <div className="tabs">
-          {planets.map((p, index) => (
-            <button
-              key={p.name}
-              onClick={() => setSelected(index)}
-              className={index === selected ? "active" : ""}
-            >
-              {p.name}
-            </button>
-          ))}
+      <div id='txt-desti'>
+        <h2><span>01</span> PICK YOUR DESTINATION</h2>
+      </div>
+      <div className="destination">
+        <div className="left">
+          <img src={planet.image} alt={planet.name} />
         </div>
 
-      <div id='para'>
-        <h1>{planet.name}</h1>
-        <p id='barre'>{planet.description}</p>
-      </div>
+        <div className="right">
+          <div className="tabs">
+            {planets.map((p, index) => (
+              <button
+                key={p.name}
+                onClick={() => handleTabClick(index)}
+                className={index === selected ? "active" : ""}
+              >
+                {p.name}
+              </button>
+            ))}
+          </div>
 
-        <div className="infos">
-          <div>
-            <h4>EST. TRAVEL TIME</h4>
-            <p id='travel'>{planet.travel}</p>
+          <div id='para'>
+            <h1>{planet.name}</h1>
+            <p id='barre'>{planet.description}</p>
+          </div>
+
+          <div className="infos">
+            <div>
+              <h4>EST. TRAVEL TIME</h4>
+              <p id='travel'>{planet.travel}</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
   );
 }
+

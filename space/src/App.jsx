@@ -7,6 +7,7 @@ import Crew from './pages/crew/Crew';
 import Tech from './pages/tech/Tech';
 import Home from './pages/home/home';
 import Navbar from './components/Navbar/Navbar';
+import { Navigate } from 'react-router-dom';
 
 function App() {
 
@@ -15,7 +16,8 @@ function App() {
     <Router>
       <Routes>
         <Route path='/' element={<Home/>} />
-        <Route path='/destination' element={<Destination/>} />
+        <Route path='/destination/:planetName' element={<Destination />} />
+        <Route path="/destination" element={<Navigate to="/destination/moon" />} />
         <Route path='/crew' element={<Crew/>} />
         <Route path='/tech' element={<Tech/>} />
       </Routes>
