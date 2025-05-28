@@ -85,3 +85,47 @@
 .right-column img{
     height: 420px;
 }
+@media (max-width: 769px){
+    .left-column{
+    margin-left: 0px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    }
+    .right-column img{
+    height: 220px;
+    }
+    .text-info p{
+    font-size: 15px;
+    margin-top: 0px;
+    line-height: 1.5;
+    }
+    .text-info h4{
+    font-size: 22px;
+    font-weight: lighter;
+    margin-bottom: 0px;
+    color: rgb(207, 213, 246);
+    font-family: "Share Tech", sans-serif;
+    }
+    .text-info h1{
+    font-size: 40px;
+    margin-top: 0px;
+    }
+    #h3-tech{
+    margin-left: 120px;
+    padding-top: 10px;
+    font-family: "Share Tech", sans-serif;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 0px;
+    }
+    .circle {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    margin-left: 10px;
+    }
+    #tech-p{
+    width: 400px;
+    }
+}
