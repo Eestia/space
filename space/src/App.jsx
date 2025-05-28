@@ -8,7 +8,6 @@ import Home from './pages/home/home';
 
 function App() {
   return (
-    <Router>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/destination/:planetName' element={<Destination />} />
@@ -17,7 +16,6 @@ function App() {
         <Route path='/technology/:techId' element={<Technology />} />
         <Route path='/technology' element={<Navigate to="/technology/1" />} />
       </Routes>
-    </Router>
   );
 }
 
