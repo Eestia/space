@@ -39,7 +39,7 @@
     color: rgb(214, 220, 254);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.left, .right {
+.left-desti, .right-desti {
   width: 50%;
 }
 
@@ -76,7 +76,7 @@
 #txt-desti span{
     color: rgba(255, 255, 255, 0.5);
 }
-.right{
+.right-desti{
     width: 410px;
 }
 .infos{

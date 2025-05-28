@@ -16,7 +16,7 @@ export default function Crew() {
         <Navbar/>
       </div>
       <div className="crew-page">
-        <div className="left">
+        <div className="left-crew">
           <div className="content">
             <div id='h2-espace'>
               <h2><span>02</span> MEET YOUR CREW</h2>
@@ -37,7 +37,7 @@ export default function Crew() {
             ))}
           </div>
         </div>
-        <div className="right">
+        <div className="right-crew">
           <img src={currentCrew.image} alt={currentCrew.name} />
         </div>
       </div>

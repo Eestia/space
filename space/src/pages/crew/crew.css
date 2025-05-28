@@ -17,7 +17,7 @@
   color: white;
 }
 
-.left {
+.left-crew {
   max-width: 600px;
   position: relative;
 }
@@ -25,11 +25,11 @@
     position: absolute;
     top: 340px;
 }
-.left h2{
+.left-crew h2{
     font-family: "Share Tech", sans-serif;
     font-weight: lighter;
 }
-.left p{
+.left-crew p{
     margin-top: 2px;
     font-size: 20px;
     color: rgb(203, 209, 241);
@@ -41,7 +41,7 @@
 #p-taille{
     width: 500px;
 }
-.left h1{
+.left-crew h1{
     font-family: "Forum", serif;
     font-weight: lighter;
     letter-spacing: 1px;
@@ -49,7 +49,7 @@
     font-size: 60px;
     margin-top: 1px;
 }
-.left h3{
+.left-crew h3{
     font-family: "Forum", serif;
     font-weight: lighter;
     letter-spacing: 1px;
@@ -57,7 +57,7 @@
     color: rgb(203, 209, 241);
     font-size: 35px;
 }
-.left h2 span {
+.left-crew h2 span {
   color: rgba(255,255,255,0.3);
   font-family: "Share Tech", sans-serif;
   font-weight: lighter;
@@ -81,13 +81,67 @@
 .dots button.active {
   background-color: white;
 }
-.right{
+.right-crew{
     position: relative;
 }
-.right img {
+.right-crew img {
   width: 450px;
   height: 450px;
   bottom: 160px;
   position: absolute;
   object-fit: contain;
+}
+@media (max-width: 769px){
+    .right-crew img {
+    width: 320px;
+    height: 320px;
+    bottom: 10px;
+    position: absolute;
+    object-fit: contain;
+    left: 30px;
+    }
+    .left-crew h3{
+    font-size: 25px;
+    }
+    #h2-espace {
+    font-size: 18px;
+    }
+    #h2-espace h2{
+    margin-top: 0px;
+    margin-bottom: 0px;    
+    }
+    .crew-page{
+        height: 100%;
+        justify-content: space-between;
+        padding-top: 0px;
+    }
+    .left-crew p{
+    margin-top: 20px;
+    font-size: 18px;
+    }
+    #p-taille{
+        width: 300px;
+    }
+    .content h3{
+        font-size: 20px;
+    }
+    .content h1{
+        font-size: 40px;
+    }
+    .dots {
+    margin-top: 0px;
+    }
+    .crew-page{
+        margin: 0px;
+        padding: 0px;
+        width: 400px;
+        height: 400px;
+    }
+    .left-crew{
+        height: 400px;
+        margin-left: 20px;
+    }
+    .right-crew{
+        height: 400px;
+    }
 }

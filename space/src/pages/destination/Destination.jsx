@@ -28,11 +28,11 @@ export default function Destination() {
         <h2><span>01</span> PICK YOUR DESTINATION</h2>
       </div>
       <div className="destination">
-        <div className="left">
+        <div className="left-desti">
           <img src={planet.image} alt={planet.name} />
         </div>
 
-        <div className="right">
+        <div className="right-desti">
           <div className="tabs">
             {planets.map((p, index) => (
               <button
