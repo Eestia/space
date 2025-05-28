@@ -65,3 +65,30 @@
     font-size: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+@media (max-width: 769px){
+    #div1 h1{
+    font-size: 110px;
+    margin-top: 0px;
+    }
+    #div1 h3{
+    font-size: 20px;
+    margin-bottom: 0px;
+    }
+    #div2{
+    background-color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    transition: 0.2s ease;
+    }
+    .home{
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+    background-image: url(../../assets/home/background-home-desktop.jpg);
+    background-size: cover;
+    }
+}

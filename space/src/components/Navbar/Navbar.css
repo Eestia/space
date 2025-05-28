@@ -42,3 +42,11 @@ nav{
 #div3 ul li a.active {
   border-bottom: 3px solid white; /* ligne visible si actif */
 }
+@media (max-width: 769px){
+    #div3 ul li a{
+    font-size: 14px;
+    }
+    #div3 ul{
+    gap: 30px;
+    }
+}
