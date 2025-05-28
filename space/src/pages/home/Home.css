@@ -95,3 +95,24 @@
     background-size: cover;
     }
 }
+@media (max-width: 426px){
+    .home{
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    background-image: url(../../assets/home/background-home-mobile.jpg);
+    background-size: cover;
+    }
+    #div2{
+    height: 150px;
+    width: 150px;
+    margin-bottom: 10px;
+    }
+    .centre{
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+}
