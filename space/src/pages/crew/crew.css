@@ -19,7 +19,6 @@
 
 .left-crew {
   max-width: 600px;
-  position: relative;
   margin-left: 150px;
 }
 .dots{
@@ -67,7 +66,7 @@
 .dots {
   display: flex;
   gap: 15px;
-  margin-top: 30px;
+  margin-top: 180px;
 }
 
 .dots button {
@@ -89,23 +88,19 @@
 .right-crew img {
   width: 450px;
   height: 450px;
-  bottom: 160px;
   object-fit: contain;
 }
 @media (max-width: 769px){
     .right-crew img {
-    width: 320px;
+    width: 310px;
     height: 320px;
-    bottom: 10px;
-    position: absolute;
-    object-fit: contain;
-    left: 30px;
     }
     .left-crew h3{
     font-size: 25px;
     }
     #h2-espace {
     font-size: 18px;
+    margin-top: 20px;
     }
     #h2-espace h2{
     margin-top: 0px;
@@ -115,10 +110,13 @@
         height: 100%;
         justify-content: space-between;
         padding-top: 0px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
     }
     .left-crew p{
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 18px;
+    margin-bottom: 0px;
     }
     #p-taille{
         width: 300px;
@@ -130,19 +128,25 @@
         font-size: 40px;
     }
     .dots {
-    margin-top: 0px;
+    margin-top: 125px;
     }
     .crew-page{
         margin: 0px;
         padding: 0px;
-        width: 400px;
-        height: 400px;
     }
     .left-crew{
-        height: 400px;
-        margin-left: 20px;
+        margin-left: 100px;
     }
     .right-crew{
-        height: 400px;
+        margin-top: 50px;
     }
+    #bg-crew{
+    height: 100%;
+    background-size: cover;
+    background-image: url(../../assets/crew/background-crew-desktop.jpg);
+    }
+    .dots button {
+    width: 12px;
+    height: 12px;
+}
 }

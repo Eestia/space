@@ -139,7 +139,7 @@
         padding-bottom: 0px;
     }
     #bg{
-    height: 100vh;
+    height: 100%;
     background-size: cover;
     background-image: url(../../assets/destination/background-destination-desktop.jpg);
     }

@@ -128,4 +128,9 @@
     #tech-p{
     width: 400px;
     }
+    #bg-tech{
+    height: 100vh;
+    background-size: cover;
+    background-image: url(../../assets/technology/background-technology-tablet.jpg);
+    }
 }
