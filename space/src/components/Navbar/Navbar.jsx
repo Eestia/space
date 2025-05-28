@@ -13,7 +13,7 @@ export default function Navbar() {
         <ul>
           <li><NavLink to="/" end className={({ isActive }) => isActive ? 'active' : ''}>00 HOME</NavLink></li>
           <li><NavLink to="/destination" className={({ isActive }) => isActive ? 'active' : ''}>01 DESTINATION</NavLink></li>
-          <li><NavLink to="/crew" className={({ isActive }) => isActive ? 'active' : ''}>02 CREW</NavLink></li>
+          <li><NavLink to="/crew/crew1" className={({ isActive }) => isActive ? 'active' : ''}>02 CREW</NavLink></li>
           <li><NavLink to="/technology" className={({ isActive }) => isActive ? 'active' : ''}>03 TECHNOLOGY</NavLink></li>
         </ul>
       </div>

@@ -1,8 +1,9 @@
-import './planet.css';
+// import './planet.css';
 
-export default function Planet() {
-  return (
-    <>
-    </>
-  );
-}
+// export default function Planet() {
+//   return (
+//     <>
+//     </>
+//   );
+// }
+// inutilisé

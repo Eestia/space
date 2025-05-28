@@ -14,7 +14,7 @@
 }
 .destination {
   display: flex;
-  gap: 100px;
+  gap: 200px;
   justify-content: space-arround;
   padding: 40px;
   color: white;
