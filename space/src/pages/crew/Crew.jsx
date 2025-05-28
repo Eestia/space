@@ -11,7 +11,7 @@ export default function Crew() {
   const currentCrew = crewData[index] || crewData[0]; // fallback sécurité
 
   return (
-    <div id='bg'>
+    <div id='bg-crew'>
       <div id='navi'>
         <Navbar/>
       </div>

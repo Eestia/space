@@ -3,16 +3,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Coiny&family=Forum&family=Jost:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lexend+Deca:wght@300&family=Lexend:wght@518&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poetsen+One&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Share+Tech&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Coiny&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Forum&family=Jost:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lexend+Deca:wght@300&family=Lexend:wght@518&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@215&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poetsen+One&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Share+Tech&family=Tenor+Sans&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
-.bg{
+#bg-crew{
     height: 100vh;
     width: 100%;
     background-size: cover;
     background-image: url(../../assets/crew/background-crew-desktop.jpg);
 }
 .crew-page {
-    height: 100vh;
+  height: 100vh;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 50px;
   color: white;
 }
@@ -81,8 +81,13 @@
 .dots button.active {
   background-color: white;
 }
-
+.right{
+    position: relative;
+}
 .right img {
-  width: 400px;
-  height: auto;
+  width: 450px;
+  height: 450px;
+  bottom: 160px;
+  position: absolute;
+  object-fit: contain;
 }
