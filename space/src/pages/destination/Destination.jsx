@@ -47,7 +47,9 @@ export default function Destination() {
 
           <div id='para'>
             <h1>{planet.name}</h1>
+            <div id='planet-p'>
             <p id='barre'>{planet.description}</p>
+            </div>
           </div>
 
           <div className="infos">
