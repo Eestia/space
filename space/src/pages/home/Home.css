@@ -9,7 +9,7 @@
 .home{
     padding: 0px;
     margin: 0px;
-    height: 100vh;
+    min-height: 100vh;
     background-image: url(../../assets/home/background-home-desktop.jpg);
     background-size: cover;
 }
