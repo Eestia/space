@@ -146,11 +146,16 @@
 }
 @media (max-width: 426px){
     #bg{
-    height: 100%;
-    padding: 0px;
-    margin: 0px;
-    background-size: cover;
+    /* height: 100%; */
+    /* padding: 0px;
+    margin: 0px; */
+    /* background-size: cover; */
     background-image: url(../../assets/destination/background-destination-mobile.jpg);
+    }
+    .tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
     }
     .destination {
     display: flex;
@@ -169,8 +174,11 @@
         margin-top: 10px;
         font-size: 60px
     }
+    .destination p{
+    font-size: 13px;
+    }
     .tabs button{
-        font-size: 15px;
+        font-size: 13px;
         margin-top: 20px;
         margin-left: 20px;
     }
@@ -178,13 +186,17 @@
     margin-left: 90px;
     margin-top: 50px;
     margin-bottom: 0px;
-    font-size: 15px;
+    font-size: 12px;
     }
     #travel{
-        margin-bottom: 15px;
+        margin-bottom: 30px;
     }
     #para{
         margin-left: 20px;
         width: 360px;
+    }
+    .infos h4{
+        margin-top: 10px;
+        font-size: 13px;
     }
 }
