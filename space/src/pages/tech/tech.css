@@ -148,29 +148,31 @@
     font-size: 12px;
     }
     #tech-p{
-        width: 300px;
+        width: 250px;
     }
     .circle {
-  width: 40px;
-  height: 40px;
-  font-size: 17px;
-  margin-left: 30px;
+  width: 35px;
+  height: 35px;
+  font-size: 13px;
+  margin-left: 40px;
     }
     .text-info h1{
-        font-size: 33px;
+        font-size: 26px;
     }
     .text-info h4{
-        font-size: 20px;
+        font-size: 16px;
     }
     .right-column img{
     height: 200px;
-    margin-left: 120px;
+    margin-left: 100px;
     }
     .left-column{
         margin-top: 30px;
         margin-bottom: 30px;
     }
-    #h3-tech h3{
-        margin-top: 30px;
+    #h3-tech {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-left: 100px;
     }
 }
