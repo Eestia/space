@@ -134,3 +134,43 @@
     background-image: url(../../assets/technology/background-technology-tablet.jpg);
     }
 }
+@media (max-width: 426px){
+    .technology-page{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #bg-tech{
+    height: 100%;
+    background-size: cover;
+    background-image: url(../../assets/technology/background-technology-mobile.jpg);
+    }
+    .text-info p{
+    font-size: 12px;
+    }
+    #tech-p{
+        width: 300px;
+    }
+    .circle {
+  width: 40px;
+  height: 40px;
+  font-size: 17px;
+  margin-left: 30px;
+    }
+    .text-info h1{
+        font-size: 33px;
+    }
+    .text-info h4{
+        font-size: 20px;
+    }
+    .right-column img{
+    height: 200px;
+    margin-left: 120px;
+    }
+    .left-column{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    #h3-tech h3{
+        margin-top: 30px;
+    }
+}

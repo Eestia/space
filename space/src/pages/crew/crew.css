@@ -67,6 +67,7 @@
   display: flex;
   gap: 15px;
   margin-top: 180px;
+  position: relative;
 }
 
 .dots button {
@@ -92,7 +93,7 @@
 }
 @media (max-width: 769px){
     .right-crew img {
-    width: 310px;
+    width: 320px;
     height: 320px;
     }
     .left-crew h3{
@@ -128,7 +129,7 @@
         font-size: 40px;
     }
     .dots {
-    margin-top: 125px;
+    margin-top: 85px;
     }
     .crew-page{
         margin: 0px;
@@ -151,29 +152,37 @@
     }
 }
 @media (max-width: 426px){
-    #h2-espace{
-        margin-bottom: 50px;
+    .right-crew img {
+    width: 300px;
+    margin-bottom: 0px;
     }
-    .dots{
-        margin-top: 160px;
+    #h2-espace{
+        margin-bottom: 10px;
     }
     #bg-crew{
     height: 100%;
     background-size: cover;
     background-image: url(../../assets/crew/background-crew-mobile.jpg);
-    }
+    } 
     .crew-page{
         display: flex;
         flex-direction: column-reverse;
     }
     .right-crew{
-        margin-top: 20px;
-        margin-left: 80px;
+        margin-bottom: 0px;
+        margin-top: 10px;
+        margin-left: 70px;
     }
     .left-crew p{
-    margin-bottom: 10px;
+    font-size: 17px;
+    margin-bottom: 100px;
     }
     .left-crew{
-        margin-left: 50px;
+        margin-left: 55px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .dots{
+        margin-bottom: 40px;
     }
 }
